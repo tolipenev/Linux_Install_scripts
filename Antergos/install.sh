@@ -1,7 +1,13 @@
-#bash
-sh ./touchegg/touchegg.sh
-sh ./tlp/tlp.sh
-sh ./themes/themes.sh
-sh ./config/config.sh
-sh ./extensions/extensions.sh
-sh ./installations/installations.sh
+#!/bin/bash 
+sudo pacman -Syy
+sh bin.sh
+cd tlp
+sh tlp.sh
+cd ../themes
+sh themes.sh
+cd ../config
+sh config.sh
+cd ../gestures
+sh gestures.sh
+cd ../installations
+sh installations.sh

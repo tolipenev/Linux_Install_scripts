@@ -22,3 +22,7 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/usr/local/bin
 export GOPATH=$HOME/go
 export GOBIN=$HOME/go/bin
+sh ~/bin/fixMouse.sh
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/alp/.sdkman"
+[[ -s "/home/alp/.sdkman/bin/sdkman-init.sh" ]] && source "/home/alp/.sdkman/bin/sdkman-init.sh"

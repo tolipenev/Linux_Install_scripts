@@ -1,8 +1,5 @@
 #!/bin/bash
 #cd gestures
-set -e
-set -x
-
 sudo pacman -S --noconfirm xdotool wmctrl
 yaourt --noconfirm libinput-tools
 git clone http://github.com/bulletmark/libinput-gestures

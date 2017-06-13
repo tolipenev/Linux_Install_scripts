@@ -2,11 +2,8 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S --noconfirm git zsh tilix
 sudo chsh -s /bin/zsh
 
-
-cd installations
 cp -r .zshrc ~/
 cp -r .profile ~/.profile
-cd ..
 
 chsh -s /bin/zsh 
 sudo chsh -s /bin/zsh 
