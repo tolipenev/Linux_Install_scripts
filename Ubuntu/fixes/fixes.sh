@@ -1,0 +1,1 @@
+gsettings set com.canonical.unity-greeter draw-grid false   
