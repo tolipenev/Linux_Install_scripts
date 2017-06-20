@@ -29,10 +29,6 @@ git clone https://github.com/HROMANO/nohotcorner.git
 mkdir ${extLoc}nohotcorner@azuri.free.fr
 cp -r nohotcorner/* ${extLoc}nohotcorner@azuri.free.fr
 
-git clone https://github.com/jenslody/gnome-shell-extension-openweather.git
-mkdir ${extLoc}openweather-extension@jenslody.de
-cp -r gnome-shell-extension-openweather/* ${extLoc}openweather-extension@jenslody.de
-
 git clone https://github.com/kgshank/gse-sound-output-device-chooser.git
 cp -r gse-sound-output-device-chooser/sound-output-device-chooser@kgshank.net ${extLoc}
 

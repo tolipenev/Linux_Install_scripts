@@ -8,5 +8,5 @@ cp -r Gnome-* ~/.themes/
 mkdir ~/.icons
 cp -r Menda-Cursor ~/.icons/
 cp -r Phoeton ~/.icons/
-
-sudo pacman -S arc-gtk-theme --noconfirm 
+cp -r Arc ~/.icons
+sudo pacman -S arc-gtk-theme --noconfirm
