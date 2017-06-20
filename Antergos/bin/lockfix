@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ "$1" ]; then
+ps -A | grep apt
+
+
+elif 
+sudo kill -9 $1
+sudo dpkg --configure -a
+fi
+

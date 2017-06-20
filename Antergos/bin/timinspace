@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" ]; then
+docker login 
+docker pull timpraqma/tis_base
+else
+docker rm -f $(docker ps -a -q)
+docker run --name teams_in_space -dit -p 2430:2430 -p 7990:7990 -p 8060:8060 -p 8080:8080 -p 8085:8085 -p 8090:8090 timpraqma/tis_base start-jira.sh start-confluence.sh
+fi
