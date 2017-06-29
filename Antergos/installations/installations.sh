@@ -1,5 +1,31 @@
 sudo pacman -Syyu --noconfirm
-sudo pacman -S --noconfirm git zsh tilix
+set -x
+programs=( 
+  chromium \
+  geary \
+  git \
+  zsh \
+  tilix \
+  npm \
+  groovy \
+  python3 \
+  python-pip \
+  go \
+  arc-gtk-theme
+)
+
+for VAR in $programs
+do
+  echo "installing $VAR"
+  sudo pacman -Sy --noconfirm $VAR
+done
+sh installBackups.sh
+
+yaourt -Sy --noconfirm intellij-idea-community-edition visual-studio-code
+
+sudo npm install primeng --save 
+sudo npm install -g yarn  
+
 sudo chsh -s /bin/zsh
 
 cp -r .zshrc ~/
