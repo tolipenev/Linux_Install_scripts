@@ -15,12 +15,12 @@ programs=(
   vim
 )
 
-for VAR in $programs
+for VAR in "${programs[@]}"
 do
   echo "installing $VAR"
   sudo pacman -Sy --noconfirm $VAR
 done
-sh restoreBackups.sh restore
+# sh restoreBackups.sh restore
 
 yaourt -Sy --noconfirm intellij-idea-community-edition visual-studio-code
 
@@ -33,8 +33,6 @@ cp -r .zshrc ~/
 cp -r .profile ~/.profile
 
 chsh -s /bin/zsh 
-sudo chsh -s /bin/zsh 
-
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions 

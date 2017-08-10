@@ -93,7 +93,3 @@ alias padu="sudo pacman -Syyu"
 alias yadu="yaourt -Syyu"
 alias par="sudo pacman -Rs"
 alias yar="yaourt -Rs"
-alias gog="/home/alp/Programs/Gogland-171.3780.106/bin/gogland.sh"
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/alp/.sdkman"
-[[ -s "/home/alp/.sdkman/bin/sdkman-init.sh" ]] && source "/home/alp/.sdkman/bin/sdkman-init.sh"

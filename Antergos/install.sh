@@ -24,10 +24,6 @@ elif [ "$1" == "i3" ];then
     cd ../Antergos_i3
     sh i3.sh
     gestures $1
-elif [ "$1" == "openbox" ];then 
-    cd ../Antergos_Openbox
-    sh openbox.sh r
-    gestures $1
 elif [ "$1" == "--help" ];then 
     help
 fi
