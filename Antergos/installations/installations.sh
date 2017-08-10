@@ -20,7 +20,7 @@ do
   echo "installing $VAR"
   sudo pacman -Sy --noconfirm $VAR
 done
-sh installBackups.sh
+sh restoreBackups.sh restore
 
 yaourt -Sy --noconfirm intellij-idea-community-edition visual-studio-code
 
