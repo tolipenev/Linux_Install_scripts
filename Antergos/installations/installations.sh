@@ -11,7 +11,8 @@ programs=(
   python3 \
   python-pip \
   go \
-  arc-gtk-theme
+  arc-gtk-theme \
+  vim
 )
 
 for VAR in $programs
@@ -34,8 +35,6 @@ cp -r .profile ~/.profile
 chsh -s /bin/zsh 
 sudo chsh -s /bin/zsh 
 
-
-yaourt -S micro
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions 

@@ -14,7 +14,7 @@ backup(){
 }
 
 restore(){
-    cp ./.IdeaIC2017.1 ~/
+  cp ./.IdeaIC2017.1 ~/
 }
 
 
