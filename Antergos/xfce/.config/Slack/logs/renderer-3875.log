@@ -1,0 +1,139 @@
+[08/29/17, 09:29:48:210] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[08/29/17, 09:29:48:212] info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 08/29/17, 09:29:48:196      ║
+[08/29/17, 09:29:48:213] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[08/29/17, 09:29:49:505] info: TranslationLookup: locale set to en-US for renderer
+[08/29/17, 09:29:49:642] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T033A3GM6', assignedId: 1 }
+[08/29/17, 09:29:49:647] info: WebView LifeCycle: New webview component created for T033A3GM6:1', with state 'unloaded'
+[08/29/17, 09:29:49:655] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T23HGJQ92', assignedId: 2 }
+[08/29/17, 09:29:49:658] info: WebView LifeCycle: New webview component created for T23HGJQ92:2', with state 'unloaded'
+[08/29/17, 09:29:49:663] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T4LJMNVAA', assignedId: 3 }
+[08/29/17, 09:29:49:667] info: WebView LifeCycle: New webview component created for T4LJMNVAA:3', with state 'unloaded'
+[08/29/17, 09:29:49:675] info: TeamsDisplay: T033A3GM6 usage: 347338032
+[08/29/17, 09:29:49:678] info: TeamsDisplay: T23HGJQ92 usage: 57853879
+[08/29/17, 09:29:49:679] info: TeamsDisplay: T4LJMNVAA usage: 0
+[08/29/17, 09:29:49:682] info: Store: SET_NETWORK_STATUS online
+[08/29/17, 09:29:49:791] info: Store: APP_STARTED
+{ updated: { events: { eventId: 2 } } }
+[08/29/17, 09:29:49:821] info: Checking network connection to Slack...
+[08/29/17, 09:29:52:469] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/29/17, 09:29:53:458] info: Store: SELECT_TEAM T033A3GM6
+[08/29/17, 09:29:53:546] info: Store: SELECT_TEAM
+{ updated: { appTeams: { selectedTeamId: 'T033A3GM6' } } }
+[08/29/17, 09:29:53:575] info: TeamsDisplay: Team T23HGJQ92 was active for 3894ms
+[08/29/17, 09:29:53:609] info: TeamView: Bugsnag user: U3P3K4XM3
+[08/29/17, 09:30:01:618] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C4K83EDMX' } } }
+[08/29/17, 09:30:01:804] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C28QY27RT' } } }
+[08/29/17, 09:30:01:891] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/29/17, 09:30:05:886] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[08/29/17, 09:30:05:899] info: Store: page-loaded
+[08/29/17, 09:30:07:022] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'page-loaded',
+  data: null }
+[08/29/17, 09:30:07:026] info: Store: page-loaded
+[08/29/17, 09:30:07:510] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[08/29/17, 09:30:07:526] info: Store: page-loaded
+[08/29/17, 09:30:09:104] info: Webapp finished loading
+[08/29/17, 09:30:09:117] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[08/29/17, 09:30:09:120] info: Store: webapp-loaded
+[08/29/17, 09:30:10:016] info: Webapp finished loading
+[08/29/17, 09:30:10:021] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'webapp-loaded',
+  data: null }
+[08/29/17, 09:30:10:024] info: Store: webapp-loaded
+[08/29/17, 09:30:13:989] info: Webapp finished loading
+[08/29/17, 09:30:14:001] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[08/29/17, 09:30:14:006] info: Store: webapp-loaded
+[08/29/17, 09:30:21:473] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/29/17, 09:33:35:069] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 09:33:36:026] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D6GANQQE7' } } }
+[08/29/17, 09:36:02:281] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 09:48:37:764] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/29/17, 09:50:08:872] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 09:55:17:416] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 09:56:42:239] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/29/17, 09:56:59:429] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/29/17, 09:57:22:110] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 10:44:30:663] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3PBL01Q8' } } }
+[08/29/17, 10:44:54:319] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 12:57:04:152] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/29/17, 12:57:05:711] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/29/17, 16:44:22:617] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/29/17, 16:44:26:273] info: Store: QUIT_APP
+{ updated: { events: { eventId: 38 } } }
+[08/29/17, 16:44:26:282] info: Store: REMOVE_WINDOW
+{ updated: {} }
+[08/29/17, 16:44:26:301] info: TeamsDisplay: Team T033A3GM6 was active for 26072727ms
+[08/29/17, 16:44:26:303] info: Store: UPDATE_TEAM_USAGE
+{ T23HGJQ92: 3894, T033A3GM6: 26072727 }
+[08/29/17, 16:44:26:323] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'component-disposed',
+  data: null }
+[08/29/17, 16:44:26:325] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 1, id: 'T033A3GM6' }
+[08/29/17, 16:44:26:327] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'component-disposed',
+  data: null }
+[08/29/17, 16:44:26:329] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 2, id: 'T23HGJQ92' }
+[08/29/17, 16:44:26:330] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'component-disposed',
+  data: null }
+[08/29/17, 16:44:26:332] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 3, id: 'T4LJMNVAA' }
+[08/29/17, 16:44:26:346] info: Store: UPDATE_TEAM_USAGE
+{ updated: { teams: { T033A3GM6: [Object], T23HGJQ92: [Object] } } }

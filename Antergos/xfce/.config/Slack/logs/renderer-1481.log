@@ -1,0 +1,158 @@
+[08/23/17, 16:08:28:199] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[08/23/17, 16:08:28:201] info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 08/23/17, 16:08:28:193      ║
+[08/23/17, 16:08:28:202] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[08/23/17, 16:08:28:694] info: TranslationLookup: locale set to en-US for renderer
+[08/23/17, 16:08:28:711] info: Store: SET_NETWORK_STATUS online
+[08/23/17, 16:08:28:738] info: Store: SET_NETWORK_STATUS
+{ updated: { app: { networkStatus: 'online' } } }
+[08/23/17, 16:08:28:800] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T033A3GM6', assignedId: 1 }
+[08/23/17, 16:08:28:802] info: WebView LifeCycle: New webview component created for T033A3GM6:1', with state 'unloaded'
+[08/23/17, 16:08:28:804] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T23HGJQ92', assignedId: 2 }
+[08/23/17, 16:08:28:806] info: WebView LifeCycle: New webview component created for T23HGJQ92:2', with state 'unloaded'
+[08/23/17, 16:08:28:808] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T4LJMNVAA', assignedId: 3 }
+[08/23/17, 16:08:28:809] info: WebView LifeCycle: New webview component created for T4LJMNVAA:3', with state 'unloaded'
+[08/23/17, 16:08:28:814] info: TeamsDisplay: T033A3GM6 usage: 74279009
+[08/23/17, 16:08:28:815] info: TeamsDisplay: T23HGJQ92 usage: 53129254
+[08/23/17, 16:08:28:816] info: TeamsDisplay: T4LJMNVAA usage: 0
+[08/23/17, 16:08:28:818] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[08/23/17, 16:08:28:823] info: Checking network connection to Slack...
+[08/23/17, 16:08:28:919] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'page-fail-load',
+  data: 
+   { isTrusted: false,
+     errorCode: -105,
+     errorDescription: 'ERR_NAME_NOT_RESOLVED',
+     validatedURL: 'https://praqma.slack.com/messages',
+     isMainFrame: true } }
+[08/23/17, 16:08:28:923] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'page-fail-load',
+  data: 
+   { isTrusted: false,
+     errorCode: -105,
+     errorDescription: 'ERR_NAME_NOT_RESOLVED',
+     validatedURL: 'https://idunhealth.slack.com/messages',
+     isMainFrame: true } }
+[08/23/17, 16:08:28:927] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'page-fail-load',
+  data: 
+   { isTrusted: false,
+     errorCode: -105,
+     errorDescription: 'ERR_NAME_NOT_RESOLVED',
+     validatedURL: 'https://danfoss2git.slack.com/messages',
+     isMainFrame: true } }
+[08/23/17, 16:08:29:292] info: Store: SET_NETWORK_STATUS offline
+[08/23/17, 16:08:29:318] info: Store: SET_NETWORK_STATUS
+{ updated: { app: { networkStatus: 'offline' } } }
+[08/23/17, 16:08:29:325] info: TeamsDisplay: Team T033A3GM6 was active for 507ms
+[08/23/17, 16:08:29:329] info: Store: UPDATE_TEAM_USAGE
+{ T033A3GM6: 507 }
+[08/23/17, 16:08:29:338] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:08:29:341] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 1, id: 'T033A3GM6' }
+[08/23/17, 16:08:29:344] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:08:29:347] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 2, id: 'T23HGJQ92' }
+[08/23/17, 16:08:29:349] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:08:29:351] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 3, id: 'T4LJMNVAA' }
+[08/23/17, 16:08:29:358] warn: Base Component: Attempting to update TeamsDisplay when unmounted.
+[08/23/17, 16:08:29:360] warn: Base Component: Attempting to update TeamSidebar when unmounted.
+[08/23/17, 16:08:29:361] warn: Base Component: Attempting to update ScrollableArea when unmounted.
+[08/23/17, 16:08:29:362] warn: Base Component: Attempting to update TeamSidebarItem when unmounted.
+[08/23/17, 16:08:29:363] warn: Base Component: Attempting to update TeamIcon when unmounted.
+[08/23/17, 16:08:29:364] warn: Base Component: Attempting to update AsyncImage when unmounted.
+[08/23/17, 16:08:29:365] warn: Base Component: Attempting to update TeamSidebarItem when unmounted.
+[08/23/17, 16:08:29:365] warn: Base Component: Attempting to update TeamIcon when unmounted.
+[08/23/17, 16:08:29:366] warn: Base Component: Attempting to update TeamSidebarItem when unmounted.
+[08/23/17, 16:08:29:367] warn: Base Component: Attempting to update TeamIcon when unmounted.
+[08/23/17, 16:08:29:368] warn: Base Component: Attempting to update AsyncImage when unmounted.
+[08/23/17, 16:08:29:368] warn: Base Component: Attempting to update TeamView when unmounted.
+[08/23/17, 16:08:29:369] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[08/23/17, 16:08:29:370] warn: Base Component: Attempting to update WebViewLifeCycleComponent when unmounted.
+[08/23/17, 16:08:29:371] warn: Base Component: Attempting to update TeamView when unmounted.
+[08/23/17, 16:08:29:372] warn: Base Component: Attempting to update WebViewLifeCycleComponent when unmounted.
+[08/23/17, 16:08:29:372] warn: Base Component: Attempting to update TeamView when unmounted.
+[08/23/17, 16:08:29:373] warn: Base Component: Attempting to update WebViewLifeCycleComponent when unmounted.
+[08/23/17, 16:08:29:374] warn: Base Component: Attempting to update DoomedError when unmounted.
+[08/23/17, 16:08:29:377] info: Store: UPDATE_TEAM_USAGE
+{ updated: { teams: { T033A3GM6: [Object] } } }
+[08/23/17, 16:08:31:327] info: Checking network connection to Slack...
+[08/23/17, 16:08:33:832] info: Checking network connection to Slack...
+[08/23/17, 16:08:36:337] info: Checking network connection to Slack...
+[08/23/17, 16:08:38:843] info: Checking network connection to Slack...
+[08/23/17, 16:08:41:348] info: Checking network connection to Slack...
+[08/23/17, 16:08:43:852] info: Checking network connection to Slack...
+[08/23/17, 16:08:46:357] info: Checking network connection to Slack...
+[08/23/17, 16:08:48:861] info: Checking network connection to Slack...
+[08/23/17, 16:08:51:366] info: Checking network connection to Slack...
+[08/23/17, 16:08:53:872] info: Checking network connection to Slack...
+[08/23/17, 16:08:56:377] info: Checking network connection to Slack...
+[08/23/17, 16:08:58:882] info: Checking network connection to Slack...
+[08/23/17, 16:09:01:388] info: Checking network connection to Slack...
+[08/23/17, 16:09:03:894] info: Checking network connection to Slack...
+[08/23/17, 16:09:06:402] info: Checking network connection to Slack...
+[08/23/17, 16:09:08:906] info: Checking network connection to Slack...
+[08/23/17, 16:09:09:375] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T033A3GM6', assignedId: 4 }
+[08/23/17, 16:09:09:376] info: WebView LifeCycle: New webview component created for T033A3GM6:4', with state 'unloaded'
+[08/23/17, 16:09:09:378] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T23HGJQ92', assignedId: 5 }
+[08/23/17, 16:09:09:379] info: WebView LifeCycle: New webview component created for T23HGJQ92:5', with state 'unloaded'
+[08/23/17, 16:09:09:380] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T4LJMNVAA', assignedId: 6 }
+[08/23/17, 16:09:09:381] info: WebView LifeCycle: New webview component created for T4LJMNVAA:6', with state 'unloaded'
+[08/23/17, 16:09:09:384] info: TeamsDisplay: T033A3GM6 usage: 74279516
+[08/23/17, 16:09:09:385] info: TeamsDisplay: T23HGJQ92 usage: 53129254
+[08/23/17, 16:09:09:386] info: TeamsDisplay: T4LJMNVAA usage: 0
+[08/23/17, 16:09:09:576] info: Store: RELOAD
+{ everything: true }
+[08/23/17, 16:09:09:639] info: Store: RELOAD
+{ updated: { events: { reload: [Object] } } }
+[08/23/17, 16:09:09:663] info: TeamView: Bugsnag user: U3P3K4XM3
+[08/23/17, 16:09:09:711] info: TeamsDisplay: Team T033A3GM6 was active for 324ms
+[08/23/17, 16:09:09:712] info: Store: UPDATE_TEAM_USAGE
+{ T033A3GM6: 324 }
+[08/23/17, 16:09:09:714] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 4,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:09:09:716] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 4, id: 'T033A3GM6' }
+[08/23/17, 16:09:09:717] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 5,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:09:09:718] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 5, id: 'T23HGJQ92' }
+[08/23/17, 16:09:09:719] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 6,
+  newState: 'component-disposed',
+  data: null }
+[08/23/17, 16:09:09:720] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 6, id: 'T4LJMNVAA' }
+[08/23/17, 16:09:09:728] info: Store: UPDATE_TEAM_USAGE
+{ updated: { teams: { T033A3GM6: [Object] } } }

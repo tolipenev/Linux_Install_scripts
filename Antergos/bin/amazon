@@ -1,9 +1,9 @@
 #!/bin/bash
-instance=ec2-35-157-166-229.eu-central-1.compute.amazonaws.com
-key=~/.ssh/jenkins.pem
+instance=ec2-52-57-249-229.eu-central-1.compute.amazonaws.com
+key=~/.ssh/jenkins-key.pem
 
 if [ ! $1 ]; then
-ssh -i $key ubuntu@$instance
+	ssh -i $key ubuntu@$instance
 elif [ "$1" = "send" ]; then
 
 	if [ -f "$2" ]  ; then 
@@ -14,4 +14,6 @@ elif [ "$1" = "send" ]; then
 	echo amazon send [path to file]
 	instance=ec2-52-58-126-187.eu-central-1.compute.amazonaws.com
 	ssh -i $key ubuntu@$instance
+elif [ "$1 " ]; then
+	ssh -i $key ubuntu@${1}
 fi

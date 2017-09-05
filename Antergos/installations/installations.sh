@@ -1,41 +1,14 @@
-sudo pacman -Syyu --noconfirm
-set -x
-programs=( 
-  chromium \
-  geary \
-  git \
-  zsh \
-  tilix \
-  npm \
-  groovy \
-  python3 \
-  python-pip \
-  go \
-  arc-gtk-theme \
-  vim
-)
 
-for VAR in "${programs[@]}"
-do
-  echo "installing $VAR"
-  sudo pacman -Sy --noconfirm $VAR
-done
-# sh restoreBackups.sh restore
-
-yaourt -Sy --noconfirm intellij-idea-community-edition visual-studio-code
-
-sudo npm install primeng --save 
-sudo npm install -g yarn  
-
-sudo chsh -s /bin/zsh
-
-cp -r .zshrc ~/
-cp -r .profile ~/.profile
-
+sh ./install.sh
 chsh -s /bin/zsh 
 
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+if [ "$1" == "xfce"] ; then 
+TERMINAL="xfce4-terminal -e"
+elif [ "$1" == "gnome" ]; then 
+TERMINAL="gnome terminal -e"
+fi
+${TERMINAL}  sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
-
-#copy the .zsh file over zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && 
+cp -r .zshrc ~
+cp -r .profile ~/.profile

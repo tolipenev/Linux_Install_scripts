@@ -22,4 +22,4 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/usr/local/bin
 export GOPATH=$HOME/go
 export GOBIN=$HOME/go/bin
-# sh ~/bin/fixMouse.sh
+sh ~/bin/fixMouse.sh

@@ -1,0 +1,80 @@
+[09/04/17, 09:23:50:812] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[09/04/17, 09:23:50:818] info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 09:23:50:803      ║
+[09/04/17, 09:23:50:824] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[09/04/17, 09:23:51:299] info: updateSuspendResume: true
+[09/04/17, 09:23:51:300] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/04/17, 09:23:53:878] info: Unloading spellchecker
+[09/04/17, 09:23:54:986] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-05-04/40016349809_72ed34fa4e024ff86d08_132.png' },
+  teamId: 'T1608S4F7' }
+[09/04/17, 09:23:55:289] info: Store: SELECT_CHANNEL C1608S78V
+[09/04/17, 09:23:55:446] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T1608S4F7' }
+[09/04/17, 09:23:55:453] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T1608S4F7' }
+[09/04/17, 09:23:55:738] info: Store: SELECT_CHANNEL D6V9QJ6BT
+[09/04/17, 09:24:01:293] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[09/04/17, 09:24:01:742] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[09/04/17, 09:24:07:844] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[09/04/17, 09:25:04:235] info: Unloading spellchecker
+[09/04/17, 09:25:53:995] info: Unloading spellchecker
+[09/04/17, 09:25:55:343] info: Unloading spellchecker
+[09/04/17, 09:29:55:698] info: Unloading spellchecker
+[09/04/17, 12:43:59:891] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[09/04/17, 12:43:59:896] info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 12:43:59:866      ║
+[09/04/17, 12:43:59:905] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[09/04/17, 12:44:02:298] info: updateSuspendResume: true
+[09/04/17, 12:44:02:303] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/04/17, 12:44:14:331] info: Store: SELECT_CHANNEL C1E5B7C5V
+[09/04/17, 12:44:14:412] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/04/17, 12:44:22:489] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T1E5B7AMD' }
+[09/04/17, 12:44:23:529] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T1E5B7AMD' }
+[09/04/17, 12:44:25:418] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T1E5B7AMD' }
+[09/04/17, 12:44:32:028] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/04/17, 12:44:32:031] info: Filtered Locale list: ["en_US"]
+[09/04/17, 12:44:32:037] info: Counts: {"en":["en_US"]}
+[09/04/17, 12:44:32:046] info: Setting en
+[09/04/17, 12:44:32:054] info: Result: {"en":"en-US"}
+[09/04/17, 12:44:32:063] info: Requesting to load da-DK, alternatives are ["da-DK","da-DK","da-DK"]
+[09/04/17, 12:44:32:070] info: Loading dictionary for language da-DK
+[09/04/17, 12:44:32:074] info: Returning local copy: /home/alp/.config/Slack/dictionaries/da-DK.bdic
+[09/04/17, 12:44:32:105] info: Setting current spellchecker to da-DK, requested language was da-DK
+[09/04/17, 12:44:32:113] info: Creating node-spellchecker instance
+[09/04/17, 12:44:32:126] info: Actually installing spell check provider to Electron
+[09/04/17, 12:44:39:234] info: Loading dictionary for language da-DK
+[09/04/17, 12:44:39:237] info: Returning local copy: /home/alp/.config/Slack/dictionaries/da-DK.bdic
+[09/04/17, 12:44:39:242] info: Setting current spellchecker to da-DK, requested language was da-DK
+[09/04/17, 19:59:40:396] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T1E5B7AMD' }
+[09/04/17, 19:59:41:658] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T1E5B7AMD' }

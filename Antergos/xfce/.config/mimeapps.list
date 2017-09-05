@@ -1,0 +1,28 @@
+[Added Associations]
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+text/markdown=mousepad.desktop;
+image/jpeg=ristretto.desktop;
+application/x-shellscript=mousepad.desktop;
+text/plain=sublime-text.desktop;jetbrains-rider.desktop;userapp-subl-BZ7N5Y.desktop;mousepad.desktop;emacs.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+text/x-scheme=mousepad.desktop;
+text/x-makefile=mousepad.desktop;userapp-code-2VHC5Y.desktop;emacs.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+text/csv=mousepad.desktop;emacs.desktop;
+text/x-java=mousepad.desktop;
+application/xml=userapp-subl-BZ7N5Y.desktop;google-chrome.desktop;mousepad.desktop;firefox.desktop;
+application/json=mousepad.desktop;
+text/x-python=mousepad.desktop;
+image/png=gimp.desktop;
+text/x-csrc=mousepad.desktop;
+text/css=mousepad.desktop;
+text/vnd.trolltech.linguist=mousepad.desktop;userapp-code-2VHC5Y.desktop;linguist-qt4.desktop;
+application/pdf=evince.desktop;
+text/html=midori.desktop;
+application/gzip=org.gnome.FileRoller.desktop;
+
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+application/xml=userapp-subl-BZ7N5Y.desktop
+text/plain=sublime-text.desktop

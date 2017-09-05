@@ -1,0 +1,280 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 09:29:55:631      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+info: 2017/9/4 09:29:58.900  booted! pri:0 version:1504478439 start_ms:1504510198079 (11ms ago)
+info: 2017/9/4 09:29:58.960  Starting incremental boot (early)
+info: 2017/9/4 09:29:58.975  _onDOMReady
+info: 2017/9/4 09:29:58.975  session_load_count_client: 1
+warn: 2017/9/4 09:29:58.977  storage_version: does not match TS.storage.version:0.85 so flushing all our keys: is_compressed
+info: 2017/9/4 09:29:58.978  _disabled:false
+info: 2017/9/4 09:29:58.980 [** 1996 **] socket-manager: Changing from never_connected to prov_connect
+info: 2017/9/4 09:29:58.981 [** 1996 **] socket-manager: will stay in prov_connect state for up to 10000 ms
+info: 2017/9/4 09:29:58.981 [** 1996 **] socket-manager: Changing from prov_connect to prov_connecting
+info: 2017/9/4 09:29:58.981 [** 1996 **] socket-manager: will stay in prov_connecting state for up to 20000 ms
+info: 2017/9/4 09:29:59.356  args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"include_pin_count":true,"no_members":true}
+Setting model user with id: U6XNR4GEN for team id: T1E5B7AMD
+Model user set for id: U6XNR4GEN
+members from updated_users in rtm.start:8 (slackbot will always be here)
+bots from updated_bots in rtm.start:0
+info: 2017/9/4 09:29:59.359  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/9/4 09:29:59.902  Finalizing incremental boot
+warn: 2017/9/4 09:29:59.908  1829ms from first html to login_sig.dispatch()
+info: 2017/9/4 09:30:01.400  User id: U6XNR4GEN, team id: T1E5B7AMD
+info: 2017/9/4 09:30:01.330 [** 1996 **] socket-manager: Changing from prov_connecting to prov_connected
+info: 2017/9/4 09:30:01.330 [** 1996 **] socket-manager: will stay in prov_connected state for up to 60000 ms
+info: 2017/9/4 09:30:01.330 [** 1996 **] socket-manager: will dispatch provisionallyConnectedSig
+info: 2017/9/4 09:30:01.330 [** 1996 **] socket-manager: did dispatch provisionallyConnectedSig
+info: 2017/9/4 09:30:01.350  Self member from rtm.start data is U6XNR4GEN
+info: 2017/9/4 09:30:01.370  Got rtm.start data but need to fetch 12 members
+info: 2017/9/4 09:30:01.515  Got 12 members for start data :tada:
+info: 2017/9/4 09:30:01.552  args.cache_ts:undefined
+api args: {}
+Setting model user with id: U6XNR4GEN for team id: T1E5B7AMD
+Model user set for id: U6XNR4GEN
+members from updated_users in rtm.start:12 (slackbot will always be here)
+bots from updated_bots in rtm.start:0
+info: 2017/9/4 09:30:01.585  open channels/groups/ims:14 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/9/4 09:30:01.685  Completed incremental boot
+info: 2017/9/4 09:30:02.640  BOOT: _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: 2017/9/4 09:30:02.650 [** 1996 **] socket-manager: Changing from prov_connected to prov_finalize
+info: 2017/9/4 09:30:02.650 [** 1996 **] socket-manager: will stay in prov_finalize state for up to 10000 ms
+info: 2017/9/4 09:30:02.650 [** 1996 **] socket-manager: Changing from prov_finalize to prov_finalizing
+info: 2017/9/4 09:30:02.650 [** 1996 **] socket-manager: will stay in prov_finalizing state for up to 10000 ms
+info: 2017/9/4 09:30:02.650 [** 1996 **] socket-manager: Changing from prov_finalizing to connected
+info: 2017/9/4 09:30:02.660 [** 1996 **] socket-manager: will stay in connected state for up to Infinity ms
+info: 2017/9/4 09:30:02.710  Hiding the reconnection banner because we are connected
+info: 2017/9/4 09:30:02.143  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 09:30:02.143  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 09:30:02.144  eventlog: fr=false, lc=false, lt=undefined
+info: 2017/9/4 09:30:02.154  BOOT: _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: 2017/9/4 09:30:02.155  BOOT: Finished first boot 3181 ms after DOM ready
+info: 2017/9/4 09:30:02.155  User id: U6XNR4GEN, team id: T1E5B7AMD
+info: 2017/9/4 09:30:03.128  Finished processing users.counts
+info: 2017/9/4 09:30:03.129  0 IMs with unreads, 0 total dm_count
+info: 2017/9/4 09:44:59.901  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 09:44:59.902  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 09:59:59.901  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 09:59:59.901  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 10:14:59.900  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 10:14:59.901  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 10:29:59.901  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 10:29:59.902  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 10:44:59.901  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 10:44:59.902  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 11:00:00.576  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 11:00:00.578  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 11:15:00.573  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 11:15:00.573  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 11:30:00.573  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 11:30:00.574  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 11:45:00.573  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 11:45:00.574  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 12:00:00.574  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 12:00:00.577  checkForOldImsToClose found no candidates for closing
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 12:43:50:108      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+info: 2017/9/4 12:44:06.813  booted! pri:0 version:1504513831 start_ms:1504521846768 (42ms ago)
+info: 2017/9/4 12:44:06.827  Starting incremental boot (early)
+info: 2017/9/4 12:44:06.834  Performing incremental boot for channel from history: C1E5B7C5V
+info: 2017/9/4 12:44:11.803  _onDOMReady
+info: 2017/9/4 12:44:11.810  session_load_count_client: 1
+warn: 2017/9/4 12:44:11.856  TS.storage.fetchLastEventTS() is empty so flushing channel data
+info: 2017/9/4 12:44:11.867  _disabled:false
+info: 2017/9/4 12:44:11.885 [** 1996 **] socket-manager: Changing from never_connected to prov_connect
+info: 2017/9/4 12:44:11.886 [** 1996 **] socket-manager: will stay in prov_connect state for up to 10000 ms
+info: 2017/9/4 12:44:11.888 [** 1996 **] socket-manager: Changing from prov_connect to prov_connecting
+info: 2017/9/4 12:44:11.889 [** 1996 **] socket-manager: will stay in prov_connecting state for up to 20000 ms
+info: 2017/9/4 12:44:13.666  args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"include_pin_count":true,"no_members":true,"channel":"C1E5B7C5V"}
+Setting model user with id: U6XNR4GEN for team id: T1E5B7AMD
+Model user set for id: U6XNR4GEN
+members from updated_users in rtm.start:8 (slackbot will always be here)
+bots from updated_bots in rtm.start:0
+info: 2017/9/4 12:44:13.708  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/9/4 12:44:14.338  Finalizing incremental boot
+warn: 2017/9/4 12:44:14.426  7658ms from first html to login_sig.dispatch()
+info: 2017/9/4 12:44:19.412  User id: U6XNR4GEN, team id: T1E5B7AMD
+info: 2017/9/4 12:44:20.304 [** 1996 **] socket-manager: Changing from prov_connecting to prov_connected
+info: 2017/9/4 12:44:20.305 [** 1996 **] socket-manager: will stay in prov_connected state for up to 60000 ms
+info: 2017/9/4 12:44:20.306 [** 1996 **] socket-manager: will dispatch provisionallyConnectedSig
+info: 2017/9/4 12:44:20.307 [** 1996 **] socket-manager: did dispatch provisionallyConnectedSig
+info: 2017/9/4 12:44:20.323  Self member from rtm.start data is U6XNR4GEN
+info: 2017/9/4 12:44:20.340  Got rtm.start data but need to fetch 12 members
+info: 2017/9/4 12:44:22.544  Got 12 members for start data :tada:
+info: 2017/9/4 12:44:22.731  args.cache_ts:undefined
+api args: {}
+Setting model user with id: U6XNR4GEN for team id: T1E5B7AMD
+Model user set for id: U6XNR4GEN
+members from updated_users in rtm.start:12 (slackbot will always be here)
+bots from updated_bots in rtm.start:0
+info: 2017/9/4 12:44:22.848  open channels/groups/ims:14 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/9/4 12:44:23.303  Completed incremental boot
+info: 2017/9/4 12:44:25.422  BOOT: _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: 2017/9/4 12:44:25.422 [** 1996 **] socket-manager: Changing from prov_connected to prov_finalize
+info: 2017/9/4 12:44:25.422 [** 1996 **] socket-manager: will stay in prov_finalize state for up to 10000 ms
+info: 2017/9/4 12:44:25.422 [** 1996 **] socket-manager: Changing from prov_finalize to prov_finalizing
+info: 2017/9/4 12:44:25.422 [** 1996 **] socket-manager: will stay in prov_finalizing state for up to 10000 ms
+info: 2017/9/4 12:44:25.423 [** 1996 **] socket-manager: Changing from prov_finalizing to connected
+info: 2017/9/4 12:44:25.423 [** 1996 **] socket-manager: will stay in connected state for up to Infinity ms
+info: 2017/9/4 12:44:25.445  Hiding the reconnection banner because we are connected
+info: 2017/9/4 12:44:25.782  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 12:44:25.784  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 12:44:25.789  eventlog: fr=false, lc=false, lt=undefined
+info: 2017/9/4 12:44:25.894  BOOT: _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: 2017/9/4 12:44:25.899  BOOT: Finished first boot 14096 ms after DOM ready
+info: 2017/9/4 12:44:25.901  User id: U6XNR4GEN, team id: T1E5B7AMD
+info: 2017/9/4 12:44:29.671  Finished processing users.counts
+info: 2017/9/4 12:44:29.677  0 IMs with unreads, 0 total dm_count
+info: 2017/9/4 12:59:15.188  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 12:59:15.189  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 13:14:15.188  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 13:14:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 13:29:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 13:29:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 13:44:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 13:44:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 13:59:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 13:59:15.187  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 14:14:15.190  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 14:14:15.190  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 14:29:15.188  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 14:29:15.189  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 14:44:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 14:44:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 14:59:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 14:59:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 15:14:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 15:14:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 15:29:15.188  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 15:29:15.190  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 15:44:15.189  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 15:44:15.190  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 15:59:15.189  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 15:59:15.191  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 16:14:15.188  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 16:14:15.189  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 16:29:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 16:29:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 16:44:15.187  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 16:44:15.188  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 16:59:15.189  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 16:59:15.191  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 17:05:21.592 [** 1996 **] socket-manager: got offline event; moving to DISCONNECT as needed
+info: 2017/9/4 17:05:21.593 [** 1996 **] socket-manager: Changing from connected to disconnect
+info: 2017/9/4 17:05:21.601  Hiding the reconnection banner because we are disconnected
+info: 2017/9/4 17:05:21.607 [** 1996 **] socket-manager: will stay in disconnect state for up to 10000 ms
+info: 2017/9/4 17:05:21.608 [** 1996 **] socket-manager: Changing from disconnect to disconnecting
+info: 2017/9/4 17:05:21.608 [** 1996 **] socket-manager: will stay in disconnecting state for up to 10000 ms
+info: 2017/9/4 17:05:21.609 [** 1996 **] socket-manager: Changing from disconnecting to disconnected
+info: 2017/9/4 17:05:21.610 [** 1996 **] socket-manager: will stay in disconnected state for up to 10000 ms
+info: 2017/9/4 17:05:21.611 [** 1996 **] socket-manager: Changing from disconnected to wait_for_connectivity
+info: 2017/9/4 17:05:21.611 [** 1996 **] socket-manager: will stay in wait_for_connectivity state for up to 300000 ms
+warn: 2017/9/4 17:05:23.187  Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: 2017/9/4 17:05:25.187  Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:20.386  Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:22.280  Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:24.280  Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:26.290  Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:28.290  Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:30.290  Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: 2017/9/4 19:59:32.290  Internet connection still offline after 9 attempts (browser says it is still offline)
+info: 2017/9/4 19:59:39.531  Internet connection has been re-established after 10 retry attempts; offline for NaN seconds
+info: 2017/9/4 19:59:39.537 [** 1996 **] socket-manager: Changing from wait_for_connectivity to wait_for_rate_limit
+info: 2017/9/4 19:59:39.540 [** 1996 **] socket-manager: will stay in wait_for_rate_limit state for up to 120000 ms
+info: 2017/9/4 19:59:39.548 [** 1996 **] socket-manager: Changing from wait_for_rate_limit to connect
+info: 2017/9/4 19:59:39.549 [** 1996 **] socket-manager: will stay in connect state for up to 10000 ms
+info: 2017/9/4 19:59:39.551 [** 1996 **] socket-manager: Changing from connect to checking_fast_reconnect
+info: 2017/9/4 19:59:39.553 [** 1996 **] socket-manager: will stay in checking_fast_reconnect state for up to 60000 ms
+info: 2017/9/4 19:59:39.574 [** 1996 **] socket-manager: Changing from checking_fast_reconnect to prov_connect
+info: 2017/9/4 19:59:39.575 [** 1996 **] socket-manager: will stay in prov_connect state for up to 10000 ms
+info: 2017/9/4 19:59:39.576 [** 1996 **] socket-manager: Changing from prov_connect to prov_connecting
+info: 2017/9/4 19:59:39.578 [** 1996 **] socket-manager: will stay in prov_connecting state for up to 20000 ms
+info: 2017/9/4 19:59:40.349 [** 1996 **] socket-manager: Changing from prov_connecting to prov_connected
+info: 2017/9/4 19:59:40.349 [** 1996 **] socket-manager: will stay in prov_connected state for up to 60000 ms
+info: 2017/9/4 19:59:40.350 [** 1996 **] socket-manager: will dispatch provisionallyConnectedSig
+info: 2017/9/4 19:59:40.350 [** 1996 **] socket-manager: did dispatch provisionallyConnectedSig
+info: 2017/9/4 19:59:40.350  Got start data from Socket Manager; hydrating it
+info: 2017/9/4 19:59:40.351  Self member from rtm.start data is U6XNR4GEN
+info: 2017/9/4 19:59:40.353  Got rtm.start data and don't need to fetch any members
+info: 2017/9/4 19:59:40.354  Successfully hydrated start data from Socket Manager; processing it
+info: 2017/9/4 19:59:40.378  args.cache_ts:undefined
+api args: {}
+members from updated_users in rtm.start:0 (slackbot will always be here)
+bots from updated_bots in rtm.start:0
+info: 2017/9/4 19:59:40.381  open channels/groups/ims:14 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/9/4 19:59:41.660  BOOT: _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: 2017/9/4 19:59:41.660 [** 1996 **] socket-manager: Changing from prov_connected to prov_finalize
+info: 2017/9/4 19:59:41.660 [** 1996 **] socket-manager: will stay in prov_finalize state for up to 10000 ms
+info: 2017/9/4 19:59:41.660 [** 1996 **] socket-manager: Changing from prov_finalize to prov_finalizing
+info: 2017/9/4 19:59:41.660 [** 1996 **] socket-manager: will stay in prov_finalizing state for up to 10000 ms
+info: 2017/9/4 19:59:41.661 [** 1996 **] socket-manager: Changing from prov_finalizing to connected
+info: 2017/9/4 19:59:41.661 [** 1996 **] socket-manager: will stay in connected state for up to Infinity ms
+info: 2017/9/4 19:59:41.670  Hiding the reconnection banner because we are connected
+info: 2017/9/4 19:59:41.675  checkForOldImsToClose might close some. this_too_many:1
+info: 2017/9/4 19:59:41.675  checkForOldImsToClose found no candidates for closing
+info: 2017/9/4 19:59:41.676  eventlog: fr=false, lc=false, lt=1504533525.000246
+info: 2017/9/4 19:59:41.676  eventlog: fetching events since 1504533525.000246 (14456.999753952026 seconds ago)
+info: 2017/9/4 19:59:41.701  BOOT: _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: 2017/9/4 19:59:41.701  User id: U6XNR4GEN, team id: T1E5B7AMD
+info: 2017/9/4 19:59:42.125  Finished processing users.counts
+info: 2017/9/4 19:59:42.125  0 IMs with unreads, 0 total dm_count
+info: 2017/9/4 19:59:42.134  eventlog: nothing to process
+info: 2017/9/4 19:59:42.135  eventlog: fetched finish (cancelled? false)
+info: 2017/9/4 19:59:42.135  eventlog: dispatching signal and clearing timestamp
+info: 2017/9/4 20:00:02.307 [** 1996 **] socket-manager: got offline event; moving to DISCONNECT as needed
+info: 2017/9/4 20:00:02.324 [** 1996 **] socket-manager: Changing from connected to disconnect
+info: 2017/9/4 20:00:02.336  Hiding the reconnection banner because we are disconnected
+info: 2017/9/4 20:00:02.337 [** 1996 **] socket-manager: will stay in disconnect state for up to 10000 ms
+info: 2017/9/4 20:00:02.337 [** 1996 **] socket-manager: Changing from disconnect to disconnecting
+info: 2017/9/4 20:00:02.338 [** 1996 **] socket-manager: will stay in disconnecting state for up to 10000 ms
+info: 2017/9/4 20:00:02.338 [** 1996 **] socket-manager: Changing from disconnecting to disconnected
+info: 2017/9/4 20:00:02.338 [** 1996 **] socket-manager: will stay in disconnected state for up to 10000 ms
+info: 2017/9/4 20:00:02.339 [** 1996 **] socket-manager: Changing from disconnected to wait_for_connectivity
+info: 2017/9/4 20:00:02.339 [** 1996 **] socket-manager: will stay in wait_for_connectivity state for up to 300000 ms
+info: 2017/9/4 20:00:04.461  Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: 2017/9/4 20:00:04.462 [** 1996 **] socket-manager: Changing from wait_for_connectivity to wait_for_rate_limit
+info: 2017/9/4 20:00:04.462 [** 1996 **] socket-manager: will stay in wait_for_rate_limit state for up to 120000 ms
+info: 2017/9/4 20:00:04.463 [** 1996 **] socket-manager: Changing from wait_for_rate_limit to connect
+info: 2017/9/4 20:00:04.463 [** 1996 **] socket-manager: will stay in connect state for up to 10000 ms
+info: 2017/9/4 20:00:04.463 [** 1996 **] socket-manager: Changing from connect to checking_fast_reconnect
+info: 2017/9/4 20:00:04.465 [** 1996 **] socket-manager: will stay in checking_fast_reconnect state for up to 60000 ms
+info: 2017/9/4 20:00:04.927 [** 1996 **] socket-manager: Changing from checking_fast_reconnect to connecting
+info: 2017/9/4 20:00:04.927 [** 1996 **] socket-manager: will stay in connecting state for up to 20000 ms
+error: WebSocket connection to 'wss://lbmulti-uusa.lb.slack-msgs.com/?flannel=2&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gF7_4YB_gFSNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AQj_ggH_23dzczovL2xibXVsdGktbWlkcy5sYi5zbGFjay1tc2dzLmNvbS93ZWJzb2NrZXQvS3lBSVdPYTlkckdKVDA4NXBkQjR5MXVFcTVLVTE2MnljMC1BUmZ5TFBldGVzQk53RHB1bjN6THhRYUhXMFh3RHZTRHZ3anJ2czV6UVVoMm5sRkpFME1aUWVuOGZleElZNmw2dUFGcTRCenpJUGpxU3llcnNkZTMxYjhnT2V2ODhNNkFlUmxseHF2MEtkaF9jUy1EX2NKSkdaVzZoM1Rpb05UcGhaM203X2hNPQEJVDFFNUI3QU1EAglVNlhOUjRHRU4BDwEAAAAO0T-LkzS-10b-XAABIFh_UUh4EJeUhk_-girKEFxwF2N6ErTlbkIhQ0V7tq73AA&encoding=' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+info: 2017/9/4 20:00:04.936 [** 1996 **] socket-manager: Changing from connecting to error
+info: 2017/9/4 20:00:04.936 [** 1996 **] socket-manager: will stay in error state for up to 10000 ms
+info: 2017/9/4 20:00:05.440 [** 1996 **] socket-manager: Changing from error to wait_for_connectivity
+info: 2017/9/4 20:00:05.500 [** 1996 **] socket-manager: will stay in wait_for_connectivity state for up to 300000 ms
+info: 2017/9/4 20:00:05.532 [** 1996 **] socket-manager: Changing from wait_for_connectivity to wait_for_rate_limit
+info: 2017/9/4 20:00:05.532 [** 1996 **] socket-manager: will stay in wait_for_rate_limit state for up to 120000 ms
+info: 2017/9/4 20:00:05.533 [** 1996 **] socket-manager: Changing from wait_for_rate_limit to connect
+info: 2017/9/4 20:00:05.533 [** 1996 **] socket-manager: will stay in connect state for up to 10000 ms
+info: 2017/9/4 20:00:05.534 [** 1996 **] socket-manager: Changing from connect to checking_fast_reconnect
+info: 2017/9/4 20:00:05.534 [** 1996 **] socket-manager: will stay in checking_fast_reconnect state for up to 60000 ms
+info: 2017/9/4 20:00:05.535 [** 1996 **] socket-manager: Changing from checking_fast_reconnect to prov_connect
+info: 2017/9/4 20:00:05.535 [** 1996 **] socket-manager: will stay in prov_connect state for up to 10000 ms
+info: 2017/9/4 20:00:05.536 [** 1996 **] socket-manager: Changing from prov_connect to prov_connecting
+info: 2017/9/4 20:00:05.536 [** 1996 **] socket-manager: will stay in prov_connecting state for up to 20000 ms
+error: WebSocket connection to 'wss://lbmulti-uusa.lb.slack-msgs.com/?flannel=2&token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_92202662a93f49c7f620cc2d06bfa18709a3989a%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26only_relevant_ims%3Dtrue' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+info: 2017/9/4 20:00:05.541 [** 1996 **] socket-manager: Changing from prov_connecting to error
+info: 2017/9/4 20:00:05.542 [** 1996 **] socket-manager: will stay in error state for up to 10000 ms
+info: 2017/9/4 20:00:06.290 [** 1996 **] socket-manager: Changing from error to wait_for_connectivity
+info: 2017/9/4 20:00:06.310 [** 1996 **] socket-manager: will stay in wait_for_connectivity state for up to 300000 ms
+info: 2017/9/4 20:00:06.365 [** 1996 **] socket-manager: Changing from wait_for_connectivity to wait_for_rate_limit
+info: 2017/9/4 20:00:06.366 [** 1996 **] socket-manager: will stay in wait_for_rate_limit state for up to 120000 ms
+info: 2017/9/4 20:00:06.368 [** 1996 **] socket-manager: will wait for 58733 ms
+info: 2017/9/4 20:00:50.222 [** 1996 **] socket-manager: got offline event; moving to DISCONNECT as needed
+info: 2017/9/4 20:00:50.223 [** 1996 **] socket-manager: Changing from wait_for_rate_limit to disconnect
+info: 2017/9/4 20:00:50.224 [** 1996 **] socket-manager: will stay in disconnect state for up to 10000 ms
+info: 2017/9/4 20:00:50.224 [** 1996 **] socket-manager: Changing from disconnect to disconnecting
+info: 2017/9/4 20:00:50.224 [** 1996 **] socket-manager: will stay in disconnecting state for up to 10000 ms
+info: 2017/9/4 20:00:50.225 [** 1996 **] socket-manager: Changing from disconnecting to disconnected
+info: 2017/9/4 20:00:50.225 [** 1996 **] socket-manager: will stay in disconnected state for up to 10000 ms
+info: 2017/9/4 20:00:50.225 [** 1996 **] socket-manager: Changing from disconnected to wait_for_connectivity
+info: 2017/9/4 20:00:50.225 [** 1996 **] socket-manager: will stay in wait_for_connectivity state for up to 300000 ms
+info: 2017/9/4 20:00:52.720  Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: 2017/9/4 20:00:52.721 [** 1996 **] socket-manager: Changing from wait_for_connectivity to wait_for_rate_limit
+info: 2017/9/4 20:00:52.722 [** 1996 **] socket-manager: will stay in wait_for_rate_limit state for up to 120000 ms
+info: 2017/9/4 20:00:52.722 [** 1996 **] socket-manager: will wait for 12378 ms

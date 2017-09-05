@@ -1,0 +1,38 @@
+{
+    "112be80e-506f-499e-a931-f85175904535": {
+        "added": 1502705583.555755, 
+        "name": "Google Search", 
+        "keyword": "g", 
+        "cmd": "https://google.com/search?q=%s", 
+        "is_default_search": true, 
+        "id": "112be80e-506f-499e-a931-f85175904535", 
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png"
+    }, 
+    "50d21c4c-5cb6-4609-8345-c6c179889416": {
+        "added": 1502705583.5561, 
+        "name": "Wikipedia", 
+        "keyword": "wiki", 
+        "cmd": "https://en.wikipedia.org/wiki/%s", 
+        "is_default_search": true, 
+        "id": "50d21c4c-5cb6-4609-8345-c6c179889416", 
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png"
+    }, 
+    "ab47fbfc-3fe2-4962-bb91-8d49f055600c": {
+        "added": 1502705583.555942, 
+        "name": "Stack Overflow", 
+        "keyword": "so", 
+        "cmd": "http://stackoverflow.com/search?q=%s", 
+        "is_default_search": true, 
+        "id": "ab47fbfc-3fe2-4962-bb91-8d49f055600c", 
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg"
+    }, 
+    "undefined": {
+        "added": 1503011958.365922, 
+        "name": "Intellij Idea Community", 
+        "keyword": "Idea", 
+        "cmd": "idea", 
+        "is_default_search": true, 
+        "id": "undefined", 
+        "icon": "/home/alp/Programs/idea-IC-172.3757.52/bin/idea.png"
+    }
+}

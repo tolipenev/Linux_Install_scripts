@@ -1,0 +1,8 @@
+#!/bin/bash
+name="arangodb"
+password="pass"
+if [ "$1" == "kill" ];then
+docker rm -f $name
+else
+docker run -e ARANGO_ROOT_PASSWORD="$password" -p 8529:8529  --name $name -d arangodb
+fi

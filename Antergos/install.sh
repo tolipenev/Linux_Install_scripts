@@ -24,10 +24,14 @@ elif [ "$1" == "i3" ];then
     cd ../Antergos_i3
     sh i3.sh
     gestures $1
+elif [ "$1" == "xfce" ];then 
+    cd ../xfce
+    sh xfce.sh
+    gestures $1
 elif [ "$1" == "--help" ];then 
     help
 fi
 
 
 cd ../installations
-sh installations.sh
+sh installations.sh $1

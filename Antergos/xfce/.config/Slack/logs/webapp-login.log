@@ -1,0 +1,39 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 09:22:55:643      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 09:23:51:328      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+info: 2017/9/4 09:24:30.587  booted! pri:0 version:1504478439 start_ms:1504509869528 (1059ms ago)
+info: 2017/9/4 09:24:30.595  _onDOMReady
+info: 2017/9/4 09:24:30.596  session_load_count_web: 1
+info: 2017/9/4 09:24:30.596  no TS.client on page:https://slack.com/signin/find
+warn: 2017/9/4 09:24:30.599  storage_version: does not match TS.storage.version:0.85 so flushing all our keys: is_compressed
+info: 2017/9/4 09:24:30.600  _disabled:false
+warn: 2017/9/4 09:24:32.690  No id on element passed to inputFieldCreated
+info: 2017/9/4 09:24:32.769  running without a user
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 09/04/17, 09:25:54:632      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+error: Uncaught TypeError: Cannot read property 'feature_app_directory_home_page_redesign' of undefined
+info: 2017/9/4 09:27:19.408  booted! pri:0 version:1504478439 start_ms:1504510038341 (1066ms ago)
+info: 2017/9/4 09:27:19.415  _onDOMReady
+info: 2017/9/4 09:27:19.416  session_load_count_web: 1
+info: 2017/9/4 09:27:19.417  no TS.client on page:https://slack.com/signin/find
+warn: 2017/9/4 09:27:19.420  TS.storage.fetchLastEventTS() is empty so flushing channel data
+info: 2017/9/4 09:27:19.422  _disabled:false
+warn: 2017/9/4 09:27:19.582  No id on element passed to inputFieldCreated
+info: 2017/9/4 09:27:19.668  running without a user

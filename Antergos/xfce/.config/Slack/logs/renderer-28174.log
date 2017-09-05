@@ -1,0 +1,332 @@
+[08/27/17, 23:28:00:333] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[08/27/17, 23:28:00:335] info: ║      Slack 2.7.1, linux 4.12.8-2-ARCH on x64 at 08/27/17, 23:28:00:323      ║
+[08/27/17, 23:28:00:335] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[08/27/17, 23:28:01:069] info: TranslationLookup: locale set to en-US for renderer
+[08/27/17, 23:28:01:153] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T033A3GM6', assignedId: 1 }
+[08/27/17, 23:28:01:160] info: WebView LifeCycle: New webview component created for T033A3GM6:1', with state 'unloaded'
+[08/27/17, 23:28:01:162] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T23HGJQ92', assignedId: 2 }
+[08/27/17, 23:28:01:164] info: WebView LifeCycle: New webview component created for T23HGJQ92:2', with state 'unloaded'
+[08/27/17, 23:28:01:166] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T4LJMNVAA', assignedId: 3 }
+[08/27/17, 23:28:01:167] info: WebView LifeCycle: New webview component created for T4LJMNVAA:3', with state 'unloaded'
+[08/27/17, 23:28:01:177] info: TeamsDisplay: T033A3GM6 usage: 273646859
+[08/27/17, 23:28:01:178] info: TeamsDisplay: T23HGJQ92 usage: 53129254
+[08/27/17, 23:28:01:179] info: TeamsDisplay: T4LJMNVAA usage: 0
+[08/27/17, 23:28:01:181] info: Store: SET_NETWORK_STATUS online
+[08/27/17, 23:28:01:211] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/27/17, 23:28:01:267] info: Store: APP_STARTED
+{ updated: { events: { eventId: 2 } } }
+[08/27/17, 23:28:01:284] info: Checking network connection to Slack...
+[08/27/17, 23:28:03:146] info: Store: SELECT_TEAM T23HGJQ92
+[08/27/17, 23:28:03:195] info: Store: SELECT_TEAM
+{ updated: { appTeams: { selectedTeamId: 'T23HGJQ92' } } }
+[08/27/17, 23:28:03:205] info: TeamsDisplay: Team T033A3GM6 was active for 2025ms
+[08/27/17, 23:28:03:228] info: TeamView: Bugsnag user: U26LY2E5R
+[08/27/17, 23:28:07:178] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'page-loaded',
+  data: null }
+[08/27/17, 23:28:07:179] info: Store: page-loaded
+[08/27/17, 23:28:07:848] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C4K83EDMX' } } }
+[08/27/17, 23:28:07:869] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C23HW8MS5' } } }
+[08/27/17, 23:28:08:265] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C3NU8JFCL' } } }
+[08/27/17, 23:28:09:813] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[08/27/17, 23:28:09:815] info: Store: page-loaded
+[08/27/17, 23:28:10:451] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[08/27/17, 23:28:10:454] info: Store: page-loaded
+[08/27/17, 23:28:12:241] info: Webapp finished loading
+[08/27/17, 23:28:12:244] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'webapp-loaded',
+  data: null }
+[08/27/17, 23:28:12:246] info: Store: webapp-loaded
+[08/27/17, 23:28:13:451] info: Webapp finished loading
+[08/27/17, 23:28:13:463] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[08/27/17, 23:28:13:465] info: Store: webapp-loaded
+[08/27/17, 23:28:13:651] info: Webapp finished loading
+[08/27/17, 23:28:13:653] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[08/27/17, 23:28:13:654] info: Store: webapp-loaded
+[08/27/17, 23:30:30:775] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C2A91B17T' } } }
+[08/27/17, 23:34:14:885] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C23HW8MS5' } } }
+[08/27/17, 23:34:48:987] info: Store: SELECT_TEAM T033A3GM6
+[08/27/17, 23:34:49:028] info: Store: SELECT_TEAM
+{ updated: { appTeams: { selectedTeamId: 'T033A3GM6' } } }
+[08/27/17, 23:34:49:034] info: TeamsDisplay: Team T23HGJQ92 was active for 405829ms
+[08/27/17, 23:34:58:182] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 09:18:35:222] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:18:52:229] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:19:10:662] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:19:15:723] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:19:47:663] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:19:52:673] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:21:04:621] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:26:38:986] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:29:22:189] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:29:45:950] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:30:04:244] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:34:58:595] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:35:25:527] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:36:03:528] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:36:11:205] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:36:17:835] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:36:18:558] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:36:38:446] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:37:08:245] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:37:32:337] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 09:37:34:111] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 09:37:39:207] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 09:37:46:672] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C033A3GMJ' } } }
+[08/28/17, 09:37:51:001] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:37:53:080] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C11P5M6UW' } } }
+[08/28/17, 09:37:55:408] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C04CTP01B' } } }
+[08/28/17, 09:38:50:656] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:39:12:773] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 09:39:17:835] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3R624WVB' } } }
+[08/28/17, 09:49:40:063] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 10:02:59:306] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 10:09:59:441] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/28/17, 10:17:34:180] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C3NU8JFCL' } } }
+[08/28/17, 10:17:39:233] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C0DBB0THB' } } }
+[08/28/17, 10:17:41:017] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C033A3GML' } } }
+[08/28/17, 10:17:52:566] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/28/17, 11:13:20:358] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 11:13:42:813] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3Q6NTT5J' } } }
+[08/28/17, 11:54:45:814] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 12:21:26:328] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:12:06:739] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:13:04:016] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 13:13:08:712] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/28/17, 13:13:35:948] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D3PBL01Q8' } } }
+[08/28/17, 13:14:00:894] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C0DBB0THB' } } }
+[08/28/17, 13:14:08:435] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:14:18:488] info: Store: SELECT_TEAM T033A3GM6
+[08/28/17, 13:14:20:383] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/28/17, 13:15:35:995] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:20:33:427] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:24:01:295] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:24:15:828] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:27:56:220] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:48:05:222] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 13:49:11:200] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 14:39:22:047] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 14:39:22:238] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 14:39:26:717] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C6737KPEG' } } }
+[08/28/17, 14:39:38:928] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C04TFQMK4' } } }
+[08/28/17, 14:39:40:080] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C3NU8JFCL' } } }
+[08/28/17, 14:39:44:919] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C033A3GMJ' } } }
+[08/28/17, 14:39:50:222] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C0A1SNAAH' } } }
+[08/28/17, 14:39:54:140] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C04CTP01B' } } }
+[08/28/17, 14:40:01:801] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C033A3GML' } } }
+[08/28/17, 15:02:05:017] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 15:02:10:228] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C5DPKTP2N' } } }
+[08/28/17, 15:18:23:016] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 15:47:23:422] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D4D971T1B' } } }
+[08/28/17, 16:21:11:474] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 16:21:20:117] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 16:49:39:523] info: Store: [2] Start a download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:39:531] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:40:019] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:40:036] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:40:051] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:40:104] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:41:769] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:42:809] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 16:49:49:217] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 19:14:48:265] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 19:14:49:308] info: Store: [3] Update an existing download
+{ updated: { downloads: { T033A3GM6: [Object] } } }
+[08/28/17, 19:37:09:615] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 19:53:58:119] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 19:54:03:356] info: Store: NEW_NOTIFICATION
+{ updated: { notifications: { notifications: [Object], newNotification: [Object] } },
+  deleted: {} }
+[08/28/17, 20:02:55:693] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 20:02:55:968] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[08/28/17, 20:02:56:795] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[08/28/17, 20:02:58:147] info: Store: SELECT_TEAM T23HGJQ92
+[08/28/17, 20:02:58:169] info: Store: SELECT_TEAM
+{ updated: { appTeams: { selectedTeamId: 'T23HGJQ92' } } }
+[08/28/17, 20:02:58:182] info: TeamsDisplay: Team T033A3GM6 was active for 73689148ms
+[08/28/17, 20:03:01:701] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C28QY27RT' } } }
+[08/28/17, 21:14:56:941] info: Store: QUIT_APP
+{ updated: { events: { eventId: 125 } } }
+[08/28/17, 21:14:56:956] info: Store: REMOVE_WINDOW
+{ updated: {} }
+[08/28/17, 21:14:56:979] info: TeamsDisplay: Team T23HGJQ92 was active for 4318796ms
+[08/28/17, 21:14:56:983] info: Store: UPDATE_TEAM_USAGE
+{ T033A3GM6: 73691173, T23HGJQ92: 4724625 }
+[08/28/17, 21:14:57:019] info: WebViewLifeCycle: State changed
+{ id: 'T033A3GM6',
+  componentId: 1,
+  newState: 'component-disposed',
+  data: null }
+[08/28/17, 21:14:57:032] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 1, id: 'T033A3GM6' }
+[08/28/17, 21:14:57:036] info: WebViewLifeCycle: State changed
+{ id: 'T23HGJQ92',
+  componentId: 2,
+  newState: 'component-disposed',
+  data: null }
+[08/28/17, 21:14:57:038] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 2, id: 'T23HGJQ92' }
+[08/28/17, 21:14:57:039] info: WebViewLifeCycle: State changed
+{ id: 'T4LJMNVAA',
+  componentId: 3,
+  newState: 'component-disposed',
+  data: null }
+[08/28/17, 21:14:57:041] info: WebViewLifeCycle: Removing lifecycle object from storage
+{ componentId: 3, id: 'T4LJMNVAA' }
+[08/28/17, 21:14:57:072] info: Store: UPDATE_TEAM_USAGE
+{ updated: { teams: { T033A3GM6: [Object], T23HGJQ92: [Object] } } }

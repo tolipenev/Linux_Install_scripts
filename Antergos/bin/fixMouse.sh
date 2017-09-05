@@ -1,8 +1,11 @@
 #!/bin/bash
-getDevice=$( xinput | grep Synaptics)
+
+set -ex
+
+getDevice=$( xinput | grep DLL06E4:01)
 UncutDevice=$(echo $getDevice | cut -d '=' -f 2)
 device=${UncutDevice:0:2}
-xinput --set-button-map $device 1 3 2 
+xinput --set-button-map $device 1 2 3 
 properties=$(xinput list-props $device | grep "Synaptics Scrolling Distance")
 echo $device
 echo $properties
