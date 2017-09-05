@@ -1,8 +1,8 @@
-PAC=(dropbox nodejs go vim tilix arc-gtk-theme geary gradle groovy python-pip zsh)
+PAC=(dropbox nodejs go vim tilix arc-gtk-theme geary gradle groovy python-pip zsh kotlin)
 
 NPM=(yarn @angular/cli primeng)
 
-YAOURT=( ulauncher jre8-openjdk openjdk8-doc)        
+YAOURT=( ulauncher)        
 
 for i in "${YAOURT[@]}"
 do
