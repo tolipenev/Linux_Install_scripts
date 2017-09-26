@@ -8,3 +8,4 @@ Simple new ubuntu instalation modifications for laptops adds some style and some
 5. Installs some alternative programs like geary and vlc
 
 All the steps can be adjusted in in the install.sh file. Comment a line to select what will be installed.
+added xfce
