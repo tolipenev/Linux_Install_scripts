@@ -1,0 +1,1 @@
+../Antergos/bin.sh

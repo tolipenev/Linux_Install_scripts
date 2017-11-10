@@ -10,9 +10,6 @@ rm -Rf libinput-gestures
 
 if [ "$1" == "gnome" ] ; then
 cp ./libinput-gestures.conf ~/.config
-elif [ "$1" == "i3" ] ; then
-cp ./libinput-gesturesI3.conf ~/.config/libinput-gestures.conf
-fi
 cp ./Libinput\ Gestures.desktop ~/.config/autostart/
 sudo gpasswd -a $USER input
 libinput-gestures-setup start

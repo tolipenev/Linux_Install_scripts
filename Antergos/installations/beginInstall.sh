@@ -1,0 +1,1 @@
+../../Manjaro desktop/installations/beginInstall.sh

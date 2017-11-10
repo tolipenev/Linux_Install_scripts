@@ -1,4 +1,3 @@
 #!bin/bash
-mkdir ~/bin
-cp ./bin ~/bin
+cp -R ./bin ~/bin
 chmod 766 ~/bin/*

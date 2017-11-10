@@ -17,12 +17,8 @@ cd ../themes
 sh themes.sh
 
 if [ "$1" == "gnome" ];then 
-    cd ../Antergos_Gnome
+    cd ../Gnome
     sh config.sh
-    gestures $1
-elif [ "$1" == "i3" ];then 
-    cd ../Antergos_i3
-    sh i3.sh
     gestures $1
 elif [ "$1" == "xfce" ];then 
     cd ../xfce
