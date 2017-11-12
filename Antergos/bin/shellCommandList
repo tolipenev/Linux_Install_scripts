@@ -1,0 +1,8 @@
+nproc = display number of cores
+$$ = PID of the script
+$BASHPID = the PDI of the current instance of Bash some times the same as $$
+basename = the last file of folder in a given path
+dirname = the last folder in a given path
+netstat -l = list all listening ports 
+scp /path/to/file username@a:/path/to/destination = ssh send to destination
+scp -i pemfile.pem username@b:/path/to/file /path/to/destination = alternative ssh send to destination

@@ -1,0 +1,3 @@
+#!/bin/bash
+PATH=/home/alp/eclipse/javascript-oxygen/eclipse
+exec $PATH/eclipse &

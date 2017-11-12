@@ -1,0 +1,2 @@
+dirname /.profile
+basename /.profile
