@@ -1,4 +1,4 @@
-PAC=(dropbox yaourt base-devel nodejs go vim tilix arc-gtk-theme geary gradle groovy ppython3 python3-pip zsh docker atom)
+PAC=(dropbox yaourt base-devel nodejs go ppython3 python3-pip zsh docker)
 
 NPM=(yarn @angular/cli primeng)
 
