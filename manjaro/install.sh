@@ -38,7 +38,7 @@ printmessage $BLUE "Found distribution ${DISTRO}"
 if [ $DISTRO="Manjaro Linux" ];do
 	printmessage $BLUE "Installing packages..."
 	sudo pacman -Syyu --noconfirm 
-	sudo pacman -Sy --noconfirm git micro xclip go zsh redis chromium p7zip	
+	sudo pacman -Sy --noconfirm git micro xclip go zsh npm redis chromium p7zip	
 
 	yaourt -S --noconfirm visual-studio-code-bin dropbox
 	printmessage $GREEN "Package installation completed"
@@ -54,7 +54,7 @@ if [ $DISTRO="Manjaro Linux" ];do
 	printmessage $GREEN "Update completed"
 
 	printmessage $BLUE "Updating .zshrc with extras"
-	cat ./extra >> $HOME/.zshrc
+	cat ./zshrcextra >> $HOME/.zshrc
 	printmessage $GREEN "Update completed"
 fi
 
