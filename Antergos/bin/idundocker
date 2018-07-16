@@ -1,1 +1,0 @@
-docker run -v /home/alp/Sources/idun/IdunHealth:/idun -it microsoft/dotnet:2.0.0-sdk-stretch bash

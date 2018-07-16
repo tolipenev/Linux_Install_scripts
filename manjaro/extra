@@ -1,0 +1,12 @@
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='micro'
+else
+  export EDITOR='micro'
+fi
+
+alias s="sudo"
+alias his="history | grep "
+
+alias pac="sudo pacman -Sy --noconfirm"
+alias auri="yaourt -S --noconfirm"
+alias aur="yaourt"

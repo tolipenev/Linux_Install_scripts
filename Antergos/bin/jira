@@ -1,2 +1,0 @@
-docker kill jira
-docker run --name jira  --detach --publish 8080:8080 cptactionhank/atlassian-jira-software:latest

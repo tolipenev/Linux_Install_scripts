@@ -1,8 +1,0 @@
-{
-    "blacklisted-desktop-dirs": "/usr/share/mimelnk/application:/usr/share/locale:/usr/share/app-install:/usr/share/kservices5:/usr/share/fk5:/usr/share/kservicetypes5:/usr/share/kde4:/usr/share/mimelnk", 
-    "clear-previous-query": false, 
-    "hotkey-show-app": "<Super>space", 
-    "show-indicator-icon": true, 
-    "show-recent-apps": false, 
-    "theme-name": "dark"
-}
