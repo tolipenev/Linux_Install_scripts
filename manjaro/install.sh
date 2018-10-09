@@ -35,7 +35,7 @@ printmessage $GREEN "Update completed"
 #Manjaro Linux only 
 DISTRO=$(lsb_release -d | awk -F"\t" '{print $2}')
 printmessage $BLUE "Found distribution ${DISTRO}"
-if [ $DISTRO="Manjaro Linux" ];do
+if [ $DISTRO="Manjaro Linux" ];then
 	printmessage $BLUE "Installing packages..."
 	sudo pacman -Syyu --noconfirm 
 	sudo pacman -Sy --noconfirm git micro xclip go zsh npm redis chromium p7zip	
