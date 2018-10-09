@@ -10,8 +10,8 @@ printmessage(){
 }
 
 printmessage $BLUE "Installing oh-my-zsh..."
-x-terminal-emulator -e sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" & 
-disown
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
+
 printmessage $RED "Please close the additional terminal window when the installationis finished"
 
 ID=$(ps | grep x-)
