@@ -23,7 +23,6 @@ done
 printmessage $GREEN "Oh-my-zsh installation completed"
 
 printmessage $BLUE "Installing oh-my-zsh addons..."
-cp alpap.zsh-theme $HOME/.oh-my-zsh/themes
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions &&
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
 wget https://gist.githubusercontent.com/alpap/c9c0357e75f3318adcce86f6bc7f6527/raw/3f1bc168e9346d1167072717de1d52904fc7e26f/alpap.zsh-theme -P $HOME/.oh-my-zsh/themes
