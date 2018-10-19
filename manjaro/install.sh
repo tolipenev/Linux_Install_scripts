@@ -9,16 +9,32 @@ printmessage(){
 	printf "${1}${2}${NC}\n"
 }
 
+printmessage $GREEN "Searching for a package manager..."
+MANAGERS=$(apropos "package manage")
+INSTALL_COMMAND=""
+DISTRO=""
+
+MANAGERS=$(apropos "package manager")
+if [[ $MANAGERS == *"dpkg"* ]]; then
+printmessage $BLUE "Found dpkg"
+DISTRO="UBUNTU"
+INSTALL_COMMAND="sudo apt update && sudo apt install -y"
+elif [[ $MANAGERS == *"dnf"* ]]; then
+printmessage $BLUE "Found dnf"
+DISTRO="FEDORA"
+INSTALL_COMMAND="sudo dnf update -y && sudo dnf install -y"
+elif [[ $MANAGERS == *"pacman"* ]]; then
+printmessage $BLUE "Found pacman"
+DISTRO="ARCH"
+INSTALL_COMMAND="sudo pacman -Syy --noconfirm && sudo pacman -S --noconfirm"
+fi
+
+printmessage $BLUE "Installing zsh..."
+$INSTALL 
+printmessage $GREEN "zsh installation completed"
+
 printmessage $BLUE "Installing oh-my-zsh..."
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
-
-printmessage $RED "Please close the additional terminal window when the installationis finished"
-
-ID=$(ps | grep x-)
-while [ ! -z $ID ]; do
-	sleep 1
-	ID=$(ps | grep x-)
-done
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/env zsh -l//')" 
 
 printmessage $GREEN "Oh-my-zsh installation completed"
 
@@ -38,9 +54,9 @@ printmessage $BLUE "Found distribution ${DISTRO}"
 if [ $DISTRO="Manjaro Linux" ];then
 	printmessage $BLUE "Installing packages..."
 	sudo pacman -Syyu --noconfirm 
-	sudo pacman -Sy --noconfirm git micro xclip go zsh npm redis chromium p7zip	
+	sudo pacman -Sy --noconfirm git micro xclip go npm p7zip	
 
-	yaourt -S --noconfirm visual-studio-code-bin dropbox
+	yaourt -S --noconfirm visual-studio-code-bin dropbox google-chrome
 	printmessage $GREEN "Package installation completed"
 
 	printmessage $BLUE "Creating directories..."
