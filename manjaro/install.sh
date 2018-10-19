@@ -9,24 +9,27 @@ printmessage(){
 	printf "${1}${2}${NC}\n"
 }
 
+PACKAGES_TO_INSTALL='git micro xclip go npm p7zip'
+YAOURT_PACKAGES="visual-studio-code-bin dropbox google-chrome"
+
 printmessage $GREEN "Searching for a package manager..."
 MANAGERS=$(apropos "package manage")
-INSTALL_COMMAND=""
-DISTRO=""
 
 MANAGERS=$(apropos "package manager")
 if [[ $MANAGERS == *"dpkg"* ]]; then
-printmessage $BLUE "Found dpkg"
-DISTRO="UBUNTU"
-INSTALL_COMMAND="sudo apt update && sudo apt install -y"
+	printmessage $BLUE "Found dpkg"
+	INSTALL_COMMAND="sudo apt update && sudo apt install -y"
 elif [[ $MANAGERS == *"dnf"* ]]; then
-printmessage $BLUE "Found dnf"
-DISTRO="FEDORA"
-INSTALL_COMMAND="sudo dnf update -y && sudo dnf install -y"
+	printmessage $BLUE "Found dnf"
+	INSTALL_COMMAND="sudo dnf update -y && sudo dnf install -y"
 elif [[ $MANAGERS == *"pacman"* ]]; then
-printmessage $BLUE "Found pacman"
-DISTRO="ARCH"
-INSTALL_COMMAND="sudo pacman -Syy --noconfirm && sudo pacman -S --noconfirm"
+	printmessage $BLUE "Found pacman"
+	INSTALL_COMMAND="sudo pacman -Syy --noconfirm && sudo pacman -S --noconfirm"
+fi 
+
+if [[ $MANAGERS == *"yaourt"* ]]; then
+printmessage $BLUE "Found yaourt"
+YAOURT=1
 fi
 
 printmessage $BLUE "Installing zsh..."
@@ -48,30 +51,29 @@ printmessage $BLUE "Updating .zshrc"
 cat ./zshrc > $HOME/.zshrc
 printmessage $GREEN "Update completed"
 
-#Manjaro Linux only 
-DISTRO=$(lsb_release -d | awk -F"\t" '{print $2}')
-printmessage $BLUE "Found distribution ${DISTRO}"
-if [ $DISTRO="Manjaro Linux" ];then
-	printmessage $BLUE "Installing packages..."
-	sudo pacman -Syyu --noconfirm 
-	sudo pacman -Sy --noconfirm git micro xclip go npm p7zip	
+printmessage $BLUE "Found distribution base ${DISTRO}"
 
-	yaourt -S --noconfirm visual-studio-code-bin dropbox google-chrome
-	printmessage $GREEN "Package installation completed"
+printmessage $BLUE "Installing packages..."
+$INSTALL_COMMAND $PACKAGES_TO_INSTALL
 
-	printmessage $BLUE "Creating directories..."
-	mkdir $HOME/bin
-	mkdir $HOME/Sources
-	mkdir $HOME/go
-	printmessage $GREEN "Directory creation completed"
+if [ ! -z $YAOURT ]; then 
+	yaourt -S --noconfirm $YAOURT_PACKAGES
+fi 
 
-	printmessage $BLUE "Updating .profile"
-	cat ./profile >> $HOME/.profile
-	printmessage $GREEN "Update completed"
+printmessage $GREEN "Package installation completed"
 
-	printmessage $BLUE "Updating .zshrc with extras"
-	cat ./zshrcextra >> $HOME/.zshrc
-	printmessage $GREEN "Update completed"
-fi
+printmessage $BLUE "Creating directories..."
+mkdir $HOME/bin
+mkdir $HOME/Sources
+mkdir $HOME/go
+printmessage $GREEN "Directory creation completed"
+
+printmessage $BLUE "Updating .profile"
+cat ./profile >> $HOME/.profile
+printmessage $GREEN "Update completed"
+
+printmessage $BLUE "Updating .zshrc with extras"
+cat ./zshrcextra >> $HOME/.zshrc
+printmessage $GREEN "Update completed"
 
 printmessage $RED "YOU ARE READY TO RUMBLE!"
