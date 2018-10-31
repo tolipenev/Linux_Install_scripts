@@ -4,7 +4,7 @@ export ZSH=/home/$USER/.oh-my-zsh
 ZSH_THEME="alpap"
 
 
-plugins=(git colorise npm zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
+plugins=(git colorise npm zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting command-not-found cp docker dotenv)
 
 source $ZSH/oh-my-zsh.sh
 ENABLE_CORRECTION="true"
